@@ -18,7 +18,7 @@ type StaticHandler struct {
 var (
 	answer = ""
 	webRoot = "web-root"
-	updateFlagFile = "private/update"
+	updateFlagFile = "tmp/update"
 )
 
 func (sh *StaticHandler) ServeHttp(responseWriter http.ResponseWriter, request *http.Request) {
